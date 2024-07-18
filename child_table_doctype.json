@@ -1,0 +1,30 @@
+{
+    "doctype": "DocType",
+    "name": "ChildTableDoctype",
+    "module": "Custom",
+    "custom": 1,
+    "istable": 1,
+    "fields": [
+      {
+        "fieldname": "date_field_1",
+        "fieldtype": "Date",
+        "label": "Date Field 1"
+      },
+      {
+        "fieldname": "date_field_2",
+        "fieldtype": "Date",
+        "label": "Date Field 2"
+      },
+      {
+        "fieldname": "int_field",
+        "fieldtype": "Int",
+        "label": "Int Field"
+      },
+      {
+        "fieldname": "data_field",
+        "fieldtype": "Data",
+        "label": "Data Field"
+      }
+    ]
+  }
+  

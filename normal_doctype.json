@@ -1,0 +1,21 @@
+{
+    "doctype": "DocType",
+    "name": "NormalDoctype",
+    "module": "Custom",
+    "custom": 1,
+    "fields": [
+      {
+        "fieldname": "name_field",
+        "fieldtype": "Data",
+        "label": "Name Field",
+        "reqd": 1
+      },
+      {
+        "fieldname": "date_field",
+        "fieldtype": "Date",
+        "label": "Date Field"
+      }
+    ],
+    "autoname": "field:name_field"
+  }
+  

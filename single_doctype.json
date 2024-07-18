@@ -1,0 +1,32 @@
+{
+    "doctype": "DocType",
+    "name": "SingleDoctype",
+    "module": "Custom",
+    "custom": 1,
+    "is_single": 1,
+    "fields": [
+      {
+        "fieldname": "data_field_1",
+        "fieldtype": "Data",
+        "label": "Data Field 1"
+      },
+      {
+        "fieldname": "data_field_2",
+        "fieldtype": "Data",
+        "label": "Data Field 2"
+      },
+      {
+        "fieldname": "normal_doctype_link",
+        "fieldtype": "Link",
+        "label": "Normal Doctype Link",
+        "options": "NormalDoctype"
+      },
+      {
+        "fieldname": "child_table",
+        "fieldtype": "Table",
+        "label": "Child Table",
+        "options": "ChildTableDoctype"
+      }
+    ]
+  }
+  
