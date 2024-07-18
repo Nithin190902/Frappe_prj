@@ -1,0 +1,9 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: ./setup.sh
+    command: bench start
+ports:
+  - port: 8000
+    onOpen: open-preview
